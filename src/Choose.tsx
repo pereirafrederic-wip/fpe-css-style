@@ -5,7 +5,7 @@ export default class Choose extends React.Component {
     super(props);
     this.state = {
       idStyle: 1,
-      styles: ["style_blue", "style_yellow", "style_black"]
+      styles: ["style_blue", "style_yellow", "style_black", "style_green"]
     };
   }
   ChangeStyle() {
@@ -20,12 +20,18 @@ export default class Choose extends React.Component {
   render() {
     const { idStyle, styles } = this.state;
     return (
-      <div className={styles[idStyle]}>
-        {styles[idStyle]}
-        {idStyle}
-        <button onClick={e => this.ChangeStyle()} type="button">
-          change
-        </button>
+      <div>
+        <div className={styles[idStyle]} onClick={e => this.ChangeStyle()}>
+          {styles[idStyle]}
+          {idStyle}
+        </div>
+        <div
+          className={styles[idStyle] + "_inverse"}
+          onClick={e => this.ChangeStyle()}
+        >
+          {styles[idStyle]}
+          {idStyle}
+        </div>
       </div>
     );
   }

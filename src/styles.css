@@ -1,18 +1,45 @@
 .App {
-  font-family: sans-serif;
+  font-family: "Oswald";
+  font-size: 24px;
+  font-weight: bold;
   text-align: center;
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 .style_blue {
-  background-color: blue;
+  background-color: #164e87;
   color: white;
+}
+.style_blue_inverse {
+  background-color: white;
+  color: #164e87;
 }
 
 .style_yellow {
-  background-color: rgb(240, 240, 20);
-  color: white;
+  background-color: #ffce2e;
+  color: #f7f9ec;
 }
+.style_yellow_inverse {
+  background-color: #f7f9ec;
+  color: #ffce2e;
+}
+
 .style_black {
   background-color: black;
   color: white;
+}
+.style_black_inverse {
+  background-color: white;
+  color: black;
+}
+
+.style_green {
+  background-color: #4b6b24;
+  color: white;
+}
+.style_green_inverse {
+  background-color: white;
+  color: #16a858;
 }
