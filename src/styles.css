@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.style_blue {
+  background-color: blue;
+  color: white;
+}
+
+.style_yellow {
+  background-color: rgb(240, 240, 20);
+  color: white;
+}
+.style_black {
+  background-color: black;
+  color: white;
+}
