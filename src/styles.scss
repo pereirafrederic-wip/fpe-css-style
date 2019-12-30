@@ -15,6 +15,14 @@
 .Tete{
   display: flex;
   min-height: 30vh;
+  flex-direction: row;
+
+.Titre{
+  font-size: 48px;
+  align-self: center;
+  
+ 
+}
 
 }
 
