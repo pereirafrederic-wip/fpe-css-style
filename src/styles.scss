@@ -1,12 +1,31 @@
+
+
+
+
 .App {
   font-family: "Oswald";
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  display: flex;
+
   min-height: 100vh;
   min-width: 100vw;
+  background-color: #f7f9ec;
+
+.Tete{
+  display: flex;
+  min-height: 30vh;
+  flex-direction: row;
+
+.Titre{
+  font-size: 48px;
+  align-self: center;
+  
+ 
 }
+
+}
+
 
 .style_blue {
   background-color: #164e87;
@@ -42,4 +61,5 @@
 .style_green_inverse {
   background-color: white;
   color: #16a858;
+}
 }
